@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="email">email</string>
+    <string name="salasõna">salasõna</string>
+    <string name="password">salasõna</string>
+    <string name="Login">Logi sisse</string>
+    <string name="katsed">Katseid on jäänud veel</string>
+    <string name="unustatud">Unustasid salasõna?</string>
+    <string name="registreeri">Registreeri kasutajaks</string>
+</resources>

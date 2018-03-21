@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.example.opilane.login.LoginActivity">
+
+
+    <EditText
+        android:id="@+id/epost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorAccent"
+        android:hint="@string/password"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Login" />
+
+    <TextView
+        android:id="@+id/katsed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/katsed"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:textAppearanceSmall"/>
+
+    <TextView
+        android:id="@+id/unustatud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/unustatud"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/registreeri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registreeri"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:textAppearanceMedium"/>
+</LinearLayout>
